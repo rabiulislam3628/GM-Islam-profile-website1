@@ -1,0 +1,89 @@
+/* navbar design start here */
+.nav-logo {
+  text-align: left;
+}
+.nav-heading h1 {
+  text-align: center;
+}
+.navbar-menu {
+  flex-direction: row;
+  justify-content: flex;
+}
+.navbar-menu a {
+  padding: 6px 10px;
+  margin: 20px 0;
+}
+/* navbar design end here */
+/* porfile design start here  */
+
+.profile .top-weather-icon {
+  position: absolute;
+  right: 100px;
+  width: 120px;
+  transition: width 2s transform 2s;
+}
+.profile .top-weather-icon:hover {
+  transform: rotate(360deg);
+  width: 140px;
+}
+
+.profile .botton-love-icon {
+  left: 140px;
+  bottom: 20px;
+  width: 120px;
+  transition: width 2s transform 2s;
+}
+.profile .botton-love-icon:hover {
+  transform: rotate(360deg);
+  width: 140px;
+}
+
+.profile-desc p {
+  color: gray;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+/* porfile design end  here  */
+/* About page start here */
+
+.aboutme-image {
+  margin-top: 100px;
+}
+.aboutme-image img {
+  height: 270px;
+  width: 250px;
+}
+e .aboutme-desc p {
+  text-align: left;
+}
+/* About page end here */
+
+/* <!-- profiessional experience start here  */
+.professional-experience {
+  padding: 1% 5%;
+}
+
+/* <!-- profiessional experience end  */
+/* achievement start here  */
+.achievement {
+  padding-right: 50px;
+}
+
+.contact button {
+  width: 150px;
+}
+.contact-links {
+  position: relative;
+}
+.media-button {
+    margin-top:40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* transform: translate(-50% -50%); */
+
+}
+
+/* achievement start here  */
